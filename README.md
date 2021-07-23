@@ -87,9 +87,6 @@ following the steps on this webpage:
 
 https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html
 
-If using this on Andrew Ho's titan.caltech.edu account, then OpenCV is
-already installed.
-
 ### General Usage
 
 The code to run the four techniques is found in the polyline_cpu.cpp and polyline_gpu.cu folders. The main exectuable to run the code can be made with the command, "make all", which will link the C++ and CUDA source files to the main.cpp file. Within the main.cpp file, users can change the input image name to test the code out on different images. All images must be put into the "images/input" directory. All output images will be written to the "images/output" directory. Running the command "make clean" will remove all object files and the main executable, as well as remove all output images from the output directory.
@@ -139,8 +136,7 @@ void test_ST_correctness(cv::Mat src_grey, string image_name, string output_path
 void test_ST_speed(cv::Mat src_grey);
  
 ## Performance Analysis
-
-The results from our speed test are as follows:
+All images used in the speed benchmark tests were of size 800x800 pixels. The results from our speed test are as follows:
 
 <img src="static/speed_test.png" width="400" height="300" />
 
