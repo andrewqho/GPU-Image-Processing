@@ -1,7 +1,6 @@
-# Project Proposal
+# GPU Accelerated Image Processing
 
-## Group Members
-Andrew Ho and Grace Lu
+## Authors: Andrew Ho, [Grace Lu](https://github.com/lugrace)
 
 ## Introduction
 
