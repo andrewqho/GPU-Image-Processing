@@ -12,7 +12,7 @@ While the paper speaks about potential parallelization with regards to performin
 
 ## Features Included
 
-The features that this project offers are as follows:
+The features that this repository offers are as follows:
 
 1. Greyscale image gradient approximation
 2. Greyscale image pixel value histogram calculation
@@ -81,7 +81,7 @@ Our GPU version calculates eigenvalues in a parallel manner, with each thread ca
 
 ### Package Set-Up
 
-This project uses OpenCV heavily. On Linux, the set up can be done very easily
+This repository uses OpenCV heavily. On Linux, the set up can be done very easily
 following the steps on this webpage:
 
 https://docs.opencv.org/master/d7/d9f/tutorial_linux_install.html
